@@ -1,0 +1,8 @@
+certifi==2023.11.17
+charset-normalizer==3.3.2
+idna==3.6
+mfrc522 @ file:///home/swastkk/Codes/MFRC522-python
+requests==2.31.0
+RPi.GPIO==0.7.1
+spidev==3.6
+urllib3==2.1.0
