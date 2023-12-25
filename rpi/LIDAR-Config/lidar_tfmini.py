@@ -3,11 +3,11 @@ import socket
 import time
 
 # LiDAR Setup
-SERIAL_PORT = '/dev/ttyAMA0'  # Replace with the correct serial port for LiDAR
+SERIAL_PORT = '/dev/ttyAMA0'  # Enter correct serial port for LiDAR
 BAUD_RATE = 115200
 
 # Socket Setup
-HOST = '192.168.0.104'  # Replace with your local system's IP address
+HOST = '192.168.0.104'  # Local system's IP address
 PORT = 7600  # Port number
 
 def parse_data(recv):
